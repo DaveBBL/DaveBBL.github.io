@@ -1,0 +1,28 @@
+{
+  "name": "davebbl.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio/Resume site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaveBBL/DaveBBL.github.io.git"
+  },
+  "author": "Dave Horn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaveBBL/DaveBBL.github.io/issues"
+  },
+  "homepage": "https://github.com/DaveBBL/DaveBBL.github.io#readme",
+  "dependencies": {
+    "bootstrap-icons": "^1.10.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
