@@ -25,8 +25,8 @@ body::before {
 }
 
 a {
-  color: #1866d2;
-  text-decoration: none;
+  color: #aaaaaa;
+  text-decoration: underline;
 }
 
 a:hover {
