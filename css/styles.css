@@ -24,14 +24,18 @@ body::before {
   }
 }
 
+.about-text {
+  font-size: larger;
+  max-width: 60ch;
+}
+
 a {
   color: #aaaaaa;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:hover {
-  color: #1866d2;
-  text-decoration: none;
+  color: #cccccc;
 }
 
 .resume-contact li {
