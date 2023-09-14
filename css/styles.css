@@ -18,17 +18,6 @@ body::before {
   z-index: -1;
 }
 
-@media (min-width: 1024px) {
-  body::before {
-    background-attachment: fixed;
-  }
-}
-
-.about-text {
-  font-size: larger;
-  max-width: 60ch;
-}
-
 a {
   color: #aaaaaa;
   text-decoration: none;
@@ -36,6 +25,22 @@ a {
 
 a:hover {
   color: #cccccc;
+}
+
+@media (min-width: 1024px) {
+  body::before {
+    background-attachment: fixed;
+  }
+}
+
+#full-stack {
+  font-size: 1.5rem;
+  color: #ddd;
+}
+
+.about-text {
+  font-size: larger;
+  max-width: 60ch;
 }
 
 .resume-contact li {
