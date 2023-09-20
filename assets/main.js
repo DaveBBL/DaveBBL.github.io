@@ -4,9 +4,11 @@ const buttonPressed = e => {
   const eName = e.target.getAttribute('name');
   const newSection = document.getElementById(eName);
   const sectionCollection = document.getElementsByTagName("section");
+  const hamburger = document.getElementById("hamburger");
   for(let section of sectionCollection) {
     section.style.display = "none";
   }
+  hamburger.click()
   newSection.style.display = "block";
 
 }
